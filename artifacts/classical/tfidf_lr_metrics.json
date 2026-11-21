@@ -1,0 +1,21 @@
+{
+  "model": "tfidf_lr",
+  "best_params": {
+    "clf__C": "5.0",
+    "tfidf__use_char": "True",
+    "tfidf__word__ngram_range": "(1, 2)"
+  },
+  "cv_macro_f1": 0.9838,
+  "val": {
+    "accuracy": 0.9893,
+    "macro_precision": 0.9893,
+    "macro_recall": 0.9897,
+    "macro_f1": 0.9895,
+    "weighted_precision": 0.9893,
+    "weighted_recall": 0.9893,
+    "weighted_f1": 0.9893
+  },
+  "train_time_sec": 24.31,
+  "n_candidates": 12,
+  "n_features": 12866
+}

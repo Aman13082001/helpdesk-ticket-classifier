@@ -1,0 +1,103 @@
+# ---------------------------------------------------------------------------
+# Central configuration for the University Helpdesk Ticket Classifier.
+# Every script reads this file, so paths/seeds/hyper-parameters live in ONE place.
+# All paths are relative to the project root (no hard-coded absolute paths).
+# ---------------------------------------------------------------------------
+seed: 42
+
+labels:
+  - IT_WiFi
+  - LMS_Portal
+  - Academics_Exams
+  - Fees_Accounts
+  - Hostel_Facilities
+
+paths:
+  raw_data: data/raw/tickets_synthetic.csv
+  processed_dir: data/processed
+  ner_gold: data/ner_gold.json
+  patterns: ner/patterns.jsonl
+  artifacts_dir: artifacts
+  reports_dir: reports
+  figures_dir: reports/figures
+
+data:
+  n_tickets: 6000          # tickets generated before cleaning
+  ambiguous_ratio: 0.10    # multi-intent tickets mixing two departments
+  vague_ratio: 0.04        # short / under-specified tickets
+  label_noise: 0.015       # fraction of tickets with a "mis-filed" label (real helpdesks have this)
+  n_duplicates: 40         # exact duplicates injected so the cleaning step has work to do
+  n_empty: 12              # empty / missing rows injected for the same reason
+  # mild class imbalance (sums to 1)
+  class_weights:
+    IT_WiFi: 0.24
+    LMS_Portal: 0.18
+    Academics_Exams: 0.22
+    Fees_Accounts: 0.17
+    Hostel_Facilities: 0.19
+
+split:
+  train: 0.70
+  val: 0.15
+  test: 0.15
+  # fraction of each class's phrasing templates held out ENTIRELY (never in train/val/test)
+  # and used only as an extra "unseen phrasing" test set -> honest generalisation check
+  unseen_template_frac: 0.15
+
+preprocessing:
+  spacy_model: en_core_web_sm
+  replace_ids: true          # STUDENT_ID / course codes / error codes -> placeholder tokens
+  keep_words: [not, no, nor, cannot, unable, failed, never, without, neither, none]
+
+tfidf:
+  cv_folds: 5
+  # grids searched with stratified CV on TRAIN only
+  nb_grid:
+    tfidf__word__ngram_range: [[1, 1], [1, 2]]
+    tfidf__word__min_df: [1, 2]
+    clf__alpha: [0.05, 0.1, 0.3, 1.0]
+  lr_grid:
+    tfidf__word__ngram_range: [[1, 1], [1, 2]]
+    tfidf__use_char: [false, true]
+    clf__C: [1.0, 5.0, 20.0]
+  svm_grid:
+    tfidf__word__ngram_range: [[1, 1], [1, 2]]
+    tfidf__use_char: [false, true]
+    clf__C: [0.1, 0.5, 1.0]
+  max_features: 30000
+
+embeddings:
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+  batch_size: 64
+  lr_C_grid: [0.5, 2.0, 8.0, 32.0]
+
+transformer:
+  model_name: distilbert-base-uncased
+  max_len: 128
+  epochs: 4
+  learning_rate: 3.0e-5
+  batch_size: 16
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  early_stopping_patience: 2
+  fast_train_subset: 800
+  fast_epochs: 1
+
+ner:
+  spacy_model: en_core_web_sm   # swap for en_core_web_md / en_core_web_trf if installed
+  keep_spacy_labels: [PERSON, ORG, GPE, DATE, TIME, MONEY, FAC, PRODUCT, EVENT]
+
+priority:
+  high_keywords: [urgent, asap, immediately, emergency, tomorrow, today, deadline, deducted,
+                  "last date", "exam tomorrow", "no water", "no electricity", "short circuit",
+                  "fire", "leak", "locked out", "debarred", "fine", "penalty"]
+  medium_keywords: [soon, waiting, still, again, "since", "not resolved", reminder, "second time"]
+
+# ---------------------------------------------------------------------------
+# Deployment (Streamlit Community Cloud). The DistilBERT weights (255 MB) exceed
+# GitHub's 100 MB file limit, so they are attached to a GitHub Release and the app
+# downloads them on first start if artifacts/distilbert_helpdesk/model.safetensors
+# is missing. Override with the DISTILBERT_WEIGHTS_URL environment variable.
+# ---------------------------------------------------------------------------
+deploy:
+  distilbert_weights_url: https://github.com/Aman13082001/helpdesk-ticket-classifier/releases/download/v1.0-models/model.safetensors

@@ -1,0 +1,21 @@
+{
+  "model": "tfidf_nb",
+  "best_params": {
+    "clf__alpha": "1.0",
+    "tfidf__word__min_df": "1",
+    "tfidf__word__ngram_range": "(1, 2)"
+  },
+  "cv_macro_f1": 0.9825,
+  "val": {
+    "accuracy": 0.9867,
+    "macro_precision": 0.9872,
+    "macro_recall": 0.9869,
+    "macro_f1": 0.987,
+    "weighted_precision": 0.9867,
+    "weighted_recall": 0.9867,
+    "weighted_f1": 0.9867
+  },
+  "train_time_sec": 61.25,
+  "n_candidates": 16,
+  "n_features": 6727
+}

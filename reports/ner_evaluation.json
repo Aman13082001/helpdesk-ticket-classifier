@@ -1,0 +1,314 @@
+{
+  "strict": {
+    "per_label": {
+      "AMOUNT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 9,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "COURSE_CODE": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.947,
+        "support": 10,
+        "tp": 9,
+        "fp": 0,
+        "fn": 1
+      },
+      "DATE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19,
+        "tp": 19,
+        "fp": 0,
+        "fn": 0
+      },
+      "DEPARTMENT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 12,
+        "tp": 12,
+        "fp": 0,
+        "fn": 0
+      },
+      "EMAIL": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      "ERROR_CODE": {
+        "precision": 1.0,
+        "recall": 0.714,
+        "f1": 0.833,
+        "support": 7,
+        "tp": 5,
+        "fp": 0,
+        "fn": 2
+      },
+      "LOCATION": {
+        "precision": 1.0,
+        "recall": 0.913,
+        "f1": 0.955,
+        "support": 23,
+        "tp": 21,
+        "fp": 0,
+        "fn": 2
+      },
+      "PERSON": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "PHONE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "STUDENT_ID": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "SYSTEM": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 24,
+        "tp": 24,
+        "fp": 0,
+        "fn": 0
+      },
+      "TIME": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667,
+        "support": 3,
+        "tp": 3,
+        "fp": 3,
+        "fn": 0
+      },
+      "TXN_ID": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "micro": {
+      "precision": 0.976,
+      "recall": 0.96,
+      "f1": 0.968
+    }
+  },
+  "lenient": {
+    "per_label": {
+      "AMOUNT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 9,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "COURSE_CODE": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.947,
+        "support": 10,
+        "tp": 9,
+        "fp": 0,
+        "fn": 1
+      },
+      "DATE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19,
+        "tp": 19,
+        "fp": 0,
+        "fn": 0
+      },
+      "DEPARTMENT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 12,
+        "tp": 12,
+        "fp": 0,
+        "fn": 0
+      },
+      "EMAIL": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      "ERROR_CODE": {
+        "precision": 1.0,
+        "recall": 0.714,
+        "f1": 0.833,
+        "support": 7,
+        "tp": 5,
+        "fp": 0,
+        "fn": 2
+      },
+      "LOCATION": {
+        "precision": 1.0,
+        "recall": 0.913,
+        "f1": 0.955,
+        "support": 23,
+        "tp": 21,
+        "fp": 0,
+        "fn": 2
+      },
+      "PERSON": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "PHONE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "STUDENT_ID": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "SYSTEM": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 24,
+        "tp": 24,
+        "fp": 0,
+        "fn": 0
+      },
+      "TIME": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667,
+        "support": 3,
+        "tp": 3,
+        "fp": 3,
+        "fn": 0
+      },
+      "TXN_ID": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "micro": {
+      "precision": 0.976,
+      "recall": 0.96,
+      "f1": 0.968
+    }
+  },
+  "errors": [
+    {
+      "text": "VPN gives ERR-504 every time I connect from home.",
+      "type": "missed",
+      "entity": "err-504",
+      "label": "ERROR_CODE",
+      "predicted_as": []
+    },
+    {
+      "text": "Fee payment portal throws E1021 at the last step.",
+      "type": "missed",
+      "entity": "e1021",
+      "label": "ERROR_CODE",
+      "predicted_as": []
+    },
+    {
+      "text": "Result of CSE-205 shows absent though I wrote the exam on 14 Oct 2026.",
+      "type": "missed",
+      "entity": "cse-205",
+      "label": "COURSE_CODE",
+      "predicted_as": []
+    },
+    {
+      "text": "Quiz on Moodle auto-submitted after 5 minutes, error code 408 displayed.",
+      "type": "spurious",
+      "entity": "5 minutes",
+      "label": "TIME"
+    },
+    {
+      "text": "MATLAB not installed in Lab-3, needed for ETCS301 lab.",
+      "type": "missed",
+      "entity": "lab-3",
+      "label": "LOCATION",
+      "predicted_as": []
+    },
+    {
+      "text": "Medical room in the girls hostel is closed at night.",
+      "type": "spurious",
+      "entity": "night",
+      "label": "TIME"
+    },
+    {
+      "text": "Student portal session expires every 2 minutes, student id KRM2024MCA120.",
+      "type": "spurious",
+      "entity": "2 minutes",
+      "label": "TIME"
+    },
+    {
+      "text": "Hostel D 210 window broken, hostel office not responding.",
+      "type": "missed",
+      "entity": "hostel d 210",
+      "label": "LOCATION",
+      "predicted_as": []
+    }
+  ],
+  "unscored_predicted_labels": {
+    "GPE": 1
+  },
+  "n_tickets": 50,
+  "tickets_fully_correct": 42
+}

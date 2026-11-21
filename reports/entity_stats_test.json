@@ -1,0 +1,726 @@
+{
+  "label_counts": {
+    "LOCATION": 197,
+    "SYSTEM": 174,
+    "DATE": 160,
+    "PERSON": 151,
+    "COURSE_CODE": 124,
+    "STUDENT_ID": 111,
+    "TIME": 63,
+    "ORG": 52,
+    "AMOUNT": 46,
+    "ERROR_CODE": 43,
+    "PHONE": 39,
+    "EMAIL": 27,
+    "TXN_ID": 23,
+    "MONEY": 16,
+    "GPE": 12,
+    "FAC": 1,
+    "DEPARTMENT": 1,
+    "PRODUCT": 1
+  },
+  "top_entities_per_label": {
+    "AMOUNT": [
+      [
+        "₹ 1200",
+        3
+      ],
+      [
+        "rs 58,500",
+        3
+      ],
+      [
+        "22000 rupees",
+        2
+      ],
+      [
+        "rs 72,000",
+        2
+      ],
+      [
+        "₹1,200",
+        2
+      ],
+      [
+        "inr 3200",
+        2
+      ],
+      [
+        "rs 45,000",
+        2
+      ],
+      [
+        "inr 45000",
+        1
+      ]
+    ],
+    "SYSTEM": [
+      [
+        "lms",
+        59
+      ],
+      [
+        "student portal",
+        14
+      ],
+      [
+        "spss",
+        12
+      ],
+      [
+        "moodle",
+        11
+      ],
+      [
+        "eduroam",
+        10
+      ],
+      [
+        "outlook",
+        9
+      ],
+      [
+        "microsoft teams",
+        8
+      ],
+      [
+        "turnitin",
+        8
+      ]
+    ],
+    "ERROR_CODE": [
+      [
+        "err_auth",
+        6
+      ],
+      [
+        "err_502",
+        3
+      ],
+      [
+        "err_timeout",
+        3
+      ],
+      [
+        "err_session",
+        2
+      ],
+      [
+        "http 404",
+        2
+      ],
+      [
+        "http 400",
+        2
+      ],
+      [
+        "err_503",
+        2
+      ],
+      [
+        "e-1976",
+        1
+      ]
+    ],
+    "PERSON": [
+      [
+        "madam",
+        21
+      ],
+      [
+        "refer",
+        5
+      ],
+      [
+        "simran verma",
+        3
+      ],
+      [
+        "vikram chopra",
+        3
+      ],
+      [
+        "isha verma",
+        2
+      ],
+      [
+        "rohan verma",
+        2
+      ],
+      [
+        "isha joshi",
+        2
+      ],
+      [
+        "priya verma",
+        2
+      ]
+    ],
+    "LOCATION": [
+      [
+        "library",
+        24
+      ],
+      [
+        "mess",
+        14
+      ],
+      [
+        "girls hostel",
+        12
+      ],
+      [
+        "exam hall",
+        11
+      ],
+      [
+        "block f",
+        10
+      ],
+      [
+        "block d",
+        8
+      ],
+      [
+        "parking",
+        8
+      ],
+      [
+        "block b",
+        8
+      ]
+    ],
+    "COURSE_CODE": [
+      [
+        "etmmti301",
+        17
+      ],
+      [
+        "etmmti303",
+        17
+      ],
+      [
+        "mca-305",
+        3
+      ],
+      [
+        "mca-301",
+        2
+      ],
+      [
+        "cs332",
+        2
+      ],
+      [
+        "mca-203",
+        2
+      ],
+      [
+        "mba-171",
+        2
+      ],
+      [
+        "etcs348",
+        2
+      ]
+    ],
+    "STUDENT_ID": [
+      [
+        "krm2023bcom037",
+        2
+      ],
+      [
+        "krm2023bca012",
+        1
+      ],
+      [
+        "krm2022bca062",
+        1
+      ],
+      [
+        "krm2025btech023",
+        1
+      ],
+      [
+        "krm2023mba019",
+        1
+      ],
+      [
+        "krm2024bca098",
+        1
+      ],
+      [
+        "krm2022bcom173",
+        1
+      ],
+      [
+        "krm2025bsc114",
+        1
+      ]
+    ],
+    "DATE": [
+      [
+        "tomorrow",
+        36
+      ],
+      [
+        "today",
+        15
+      ],
+      [
+        "yesterday",
+        12
+      ],
+      [
+        "last week",
+        11
+      ],
+      [
+        "1st semester",
+        5
+      ],
+      [
+        "the last date",
+        5
+      ],
+      [
+        "wednesday",
+        3
+      ],
+      [
+        "5 weeks",
+        3
+      ]
+    ],
+    "TIME": [
+      [
+        "night",
+        12
+      ],
+      [
+        "8 pm",
+        6
+      ],
+      [
+        "2 pm",
+        5
+      ],
+      [
+        "midnight",
+        4
+      ],
+      [
+        "2 minutes",
+        4
+      ],
+      [
+        "11:30 am",
+        3
+      ],
+      [
+        "4 pm",
+        3
+      ],
+      [
+        "morning",
+        3
+      ]
+    ],
+    "ORG": [
+      [
+        "ip",
+        7
+      ],
+      [
+        "cgpa",
+        5
+      ],
+      [
+        "lan",
+        5
+      ],
+      [
+        "regards",
+        5
+      ],
+      [
+        "sir",
+        3
+      ],
+      [
+        "pls",
+        3
+      ],
+      [
+        "helpdesk",
+        3
+      ],
+      [
+        "ac",
+        3
+      ]
+    ],
+    "EMAIL": [
+      [
+        "varun.joshi13@krmu.edu.in",
+        1
+      ],
+      [
+        "nikhil.kulkarni62@gmail.com",
+        1
+      ],
+      [
+        "kavya.singh44@krmu.edu.in",
+        1
+      ],
+      [
+        "karan.singh26@gmail.com",
+        1
+      ],
+      [
+        "meera.kulkarni44@gmail.com",
+        1
+      ],
+      [
+        "rohan.nair98@gmail.com",
+        1
+      ],
+      [
+        "riya.kulkarni27@gmail.com",
+        1
+      ],
+      [
+        "arjun.kapoor86@gmail.com",
+        1
+      ]
+    ],
+    "PHONE": [
+      [
+        "+91 92182 34399",
+        1
+      ],
+      [
+        "+91 98102 29291",
+        1
+      ],
+      [
+        "9763191482",
+        1
+      ],
+      [
+        "+91 96496 48969",
+        1
+      ],
+      [
+        "+91 94396 83205",
+        1
+      ],
+      [
+        "9604091946",
+        1
+      ],
+      [
+        "9916487904",
+        1
+      ],
+      [
+        "+91 97734 83063",
+        1
+      ]
+    ],
+    "MONEY": [
+      [
+        "71834",
+        1
+      ],
+      [
+        "68279",
+        1
+      ],
+      [
+        "59600",
+        1
+      ],
+      [
+        "63978",
+        1
+      ],
+      [
+        "38457",
+        1
+      ],
+      [
+        "35564",
+        1
+      ],
+      [
+        "38727",
+        1
+      ],
+      [
+        "27493",
+        1
+      ]
+    ],
+    "TXN_ID": [
+      [
+        "txn7784232313",
+        1
+      ],
+      [
+        "utr434528091481",
+        1
+      ],
+      [
+        "txn9731732460",
+        1
+      ],
+      [
+        "txn-328210",
+        1
+      ],
+      [
+        "utr229106602128",
+        1
+      ],
+      [
+        "utr580888724028",
+        1
+      ],
+      [
+        "txn8972977828",
+        1
+      ],
+      [
+        "txn6661797484",
+        1
+      ]
+    ],
+    "GPE": [
+      [
+        "singh",
+        4
+      ],
+      [
+        "ananya",
+        2
+      ],
+      [
+        "hotsel c-115",
+        1
+      ],
+      [
+        "🙁",
+        1
+      ],
+      [
+        "mr",
+        1
+      ],
+      [
+        "pooja joshi",
+        1
+      ],
+      [
+        "aditya kulkarni",
+        1
+      ],
+      [
+        "ms",
+        1
+      ]
+    ],
+    "FAC": [
+      [
+        "hostel",
+        1
+      ]
+    ],
+    "DEPARTMENT": [
+      [
+        "accounts office",
+        1
+      ]
+    ],
+    "PRODUCT": [
+      [
+        "das",
+        1
+      ]
+    ]
+  },
+  "top_entities_per_category": {
+    "Hostel_Facilities": [
+      [
+        "LOCATION: library",
+        14
+      ],
+      [
+        "LOCATION: girls hostel",
+        12
+      ],
+      [
+        "DATE: today",
+        11
+      ],
+      [
+        "LOCATION: parking",
+        8
+      ],
+      [
+        "LOCATION: mess",
+        8
+      ],
+      [
+        "LOCATION: block d",
+        6
+      ],
+      [
+        "PERSON: madam",
+        6
+      ],
+      [
+        "TIME: 8 pm",
+        6
+      ]
+    ],
+    "LMS_Portal": [
+      [
+        "SYSTEM: lms",
+        50
+      ],
+      [
+        "SYSTEM: student portal",
+        13
+      ],
+      [
+        "SYSTEM: moodle",
+        11
+      ],
+      [
+        "SYSTEM: turnitin",
+        8
+      ],
+      [
+        "DATE: tomorrow",
+        6
+      ],
+      [
+        "DATE: today",
+        4
+      ],
+      [
+        "TIME: midnight",
+        4
+      ],
+      [
+        "TIME: 2 minutes",
+        4
+      ]
+    ],
+    "Academics_Exams": [
+      [
+        "COURSE_CODE: etmmti301",
+        12
+      ],
+      [
+        "COURSE_CODE: etmmti303",
+        11
+      ],
+      [
+        "DATE: tomorrow",
+        10
+      ],
+      [
+        "PERSON: madam",
+        5
+      ],
+      [
+        "ORG: cgpa",
+        5
+      ],
+      [
+        "DATE: yesterday",
+        5
+      ],
+      [
+        "SYSTEM: lms",
+        4
+      ],
+      [
+        "COURSE_CODE: mca-305",
+        3
+      ]
+    ],
+    "IT_WiFi": [
+      [
+        "SYSTEM: spss",
+        12
+      ],
+      [
+        "LOCATION: exam hall",
+        11
+      ],
+      [
+        "DATE: tomorrow",
+        10
+      ],
+      [
+        "SYSTEM: eduroam",
+        10
+      ],
+      [
+        "SYSTEM: outlook",
+        9
+      ],
+      [
+        "SYSTEM: microsoft teams",
+        8
+      ],
+      [
+        "TIME: night",
+        8
+      ],
+      [
+        "SYSTEM: matlab",
+        7
+      ]
+    ],
+    "Fees_Accounts": [
+      [
+        "DATE: tomorrow",
+        6
+      ],
+      [
+        "PERSON: madam",
+        6
+      ],
+      [
+        "LOCATION: mess",
+        6
+      ],
+      [
+        "LOCATION: library",
+        6
+      ],
+      [
+        "DATE: the last date",
+        5
+      ],
+      [
+        "AMOUNT: ₹ 1200",
+        3
+      ],
+      [
+        "AMOUNT: rs 58,500",
+        3
+      ],
+      [
+        "SYSTEM: neft",
+        3
+      ]
+    ]
+  },
+  "tickets_with_entities": 660,
+  "n_tickets": 750
+}

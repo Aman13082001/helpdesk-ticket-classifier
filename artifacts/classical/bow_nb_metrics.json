@@ -1,0 +1,17 @@
+{
+  "model": "bow_nb",
+  "best_params": {
+    "note": "fixed defaults (comparison only)"
+  },
+  "val": {
+    "accuracy": 0.988,
+    "macro_precision": 0.9882,
+    "macro_recall": 0.9885,
+    "macro_f1": 0.9884,
+    "weighted_precision": 0.988,
+    "weighted_recall": 0.988,
+    "weighted_f1": 0.988
+  },
+  "train_time_sec": 0.29,
+  "n_features": 6727
+}

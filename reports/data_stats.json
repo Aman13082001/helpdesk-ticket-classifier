@@ -1,0 +1,62 @@
+{
+  "raw_rows": 6052,
+  "missing_text": 6,
+  "empty_text": 6,
+  "exact_duplicate_rows": 195,
+  "texts_with_conflicting_labels": 2,
+  "clean_rows": 5843,
+  "unseen_templates": [
+    "core:Academics_Exams:17",
+    "core:Academics_Exams:21",
+    "core:Academics_Exams:23",
+    "core:Academics_Exams:3",
+    "core:Fees_Accounts:1",
+    "core:Fees_Accounts:13",
+    "core:Fees_Accounts:18",
+    "core:Fees_Accounts:2",
+    "core:Hostel_Facilities:0",
+    "core:Hostel_Facilities:2",
+    "core:Hostel_Facilities:6",
+    "core:Hostel_Facilities:7",
+    "core:IT_WiFi:0",
+    "core:IT_WiFi:20",
+    "core:IT_WiFi:23",
+    "core:IT_WiFi:3",
+    "core:LMS_Portal:23",
+    "core:LMS_Portal:4",
+    "core:LMS_Portal:7",
+    "core:LMS_Portal:8"
+  ],
+  "train_rows": 3498,
+  "train_class_counts": {
+    "IT_WiFi": 890,
+    "Academics_Exams": 794,
+    "Hostel_Facilities": 640,
+    "Fees_Accounts": 610,
+    "LMS_Portal": 564
+  },
+  "val_rows": 750,
+  "val_class_counts": {
+    "IT_WiFi": 190,
+    "Academics_Exams": 171,
+    "Hostel_Facilities": 137,
+    "Fees_Accounts": 131,
+    "LMS_Portal": 121
+  },
+  "test_rows": 750,
+  "test_class_counts": {
+    "IT_WiFi": 191,
+    "Academics_Exams": 170,
+    "Hostel_Facilities": 138,
+    "Fees_Accounts": 131,
+    "LMS_Portal": 120
+  },
+  "test_unseen_rows": 845,
+  "test_unseen_class_counts": {
+    "IT_WiFi": 219,
+    "Academics_Exams": 187,
+    "LMS_Portal": 151,
+    "Fees_Accounts": 144,
+    "Hostel_Facilities": 144
+  }
+}

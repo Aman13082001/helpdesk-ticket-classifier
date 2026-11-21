@@ -1,0 +1,632 @@
+{
+  "tfidf_nb": {
+    "IT_WiFi": {
+      "precision": 0.9792746113989638,
+      "recall": 0.9895287958115183,
+      "f1-score": 0.984375,
+      "support": 191.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9915966386554622,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9874476987447699,
+      "support": 120.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9883720930232558,
+      "recall": 1.0,
+      "f1-score": 0.9941520467836257,
+      "support": 170.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9774436090225563,
+      "recall": 0.9923664122137404,
+      "f1-score": 0.9848484848484849,
+      "support": 131.0
+    },
+    "Hostel_Facilities": {
+      "precision": 1.0,
+      "recall": 0.9637681159420289,
+      "f1-score": 0.981549815498155,
+      "support": 138.0
+    },
+    "accuracy": 0.9866666666666667,
+    "macro avg": {
+      "precision": 0.9873373904200478,
+      "recall": 0.9857993314601241,
+      "f1-score": 0.9864746091750071,
+      "support": 750.0
+    },
+    "weighted avg": {
+      "precision": 0.9868018880156878,
+      "recall": 0.9866666666666667,
+      "f1-score": 0.9866456304753142,
+      "support": 750.0
+    }
+  },
+  "tfidf_lr": {
+    "IT_WiFi": {
+      "precision": 0.9792746113989638,
+      "recall": 0.9895287958115183,
+      "f1-score": 0.984375,
+      "support": 191.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9915966386554622,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9874476987447699,
+      "support": 120.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9883040935672515,
+      "recall": 0.9941176470588236,
+      "f1-score": 0.9912023460410557,
+      "support": 170.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9774436090225563,
+      "recall": 0.9923664122137404,
+      "f1-score": 0.9848484848484849,
+      "support": 131.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.9925373134328358,
+      "recall": 0.9637681159420289,
+      "f1-score": 0.9779411764705882,
+      "support": 138.0
+    },
+    "accuracy": 0.9853333333333333,
+    "macro avg": {
+      "precision": 0.9858312532154139,
+      "recall": 0.9846228608718889,
+      "f1-score": 0.9851629412209798,
+      "support": 750.0
+    },
+    "weighted avg": {
+      "precision": 0.985413340477302,
+      "recall": 0.9853333333333333,
+      "f1-score": 0.9853130420592594,
+      "support": 750.0
+    }
+  },
+  "tfidf_svm": {
+    "IT_WiFi": {
+      "precision": 0.9792746113989638,
+      "recall": 0.9895287958115183,
+      "f1-score": 0.984375,
+      "support": 191.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9833333333333333,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9833333333333333,
+      "support": 120.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9883040935672515,
+      "recall": 0.9941176470588236,
+      "f1-score": 0.9912023460410557,
+      "support": 170.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9774436090225563,
+      "recall": 0.9923664122137404,
+      "f1-score": 0.9848484848484849,
+      "support": 131.0
+    },
+    "Hostel_Facilities": {
+      "precision": 1.0,
+      "recall": 0.9637681159420289,
+      "f1-score": 0.981549815498155,
+      "support": 138.0
+    },
+    "accuracy": 0.9853333333333333,
+    "macro avg": {
+      "precision": 0.985671129464421,
+      "recall": 0.9846228608718889,
+      "f1-score": 0.9850617959442058,
+      "support": 750.0
+    },
+    "weighted avg": {
+      "precision": 0.9854643459541196,
+      "recall": 0.9853333333333333,
+      "f1-score": 0.9853187331745018,
+      "support": 750.0
+    }
+  },
+  "sbert_lr": {
+    "IT_WiFi": {
+      "precision": 0.9689119170984456,
+      "recall": 0.9790575916230366,
+      "f1-score": 0.9739583333333334,
+      "support": 191.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9829059829059829,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.9704641350210971,
+      "support": 120.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9880952380952381,
+      "recall": 0.9764705882352941,
+      "f1-score": 0.9822485207100592,
+      "support": 170.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9555555555555556,
+      "recall": 0.9847328244274809,
+      "f1-score": 0.9699248120300752,
+      "support": 131.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.9562043795620438,
+      "recall": 0.9492753623188406,
+      "f1-score": 0.9527272727272728,
+      "support": 138.0
+    },
+    "accuracy": 0.9706666666666667,
+    "macro avg": {
+      "precision": 0.9703346146434532,
+      "recall": 0.9695739399875972,
+      "f1-score": 0.9698646147643675,
+      "support": 750.0
+    },
+    "weighted avg": {
+      "precision": 0.9708280889974018,
+      "recall": 0.9706666666666667,
+      "f1-score": 0.970667333869616,
+      "support": 750.0
+    }
+  },
+  "distilbert": {
+    "IT_WiFi": {
+      "precision": 0.984375,
+      "recall": 0.9895287958115183,
+      "f1-score": 0.9869451697127938,
+      "support": 191.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9833333333333333,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9833333333333333,
+      "support": 120.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9883040935672515,
+      "recall": 0.9941176470588236,
+      "f1-score": 0.9912023460410557,
+      "support": 170.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9774436090225563,
+      "recall": 0.9923664122137404,
+      "f1-score": 0.9848484848484849,
+      "support": 131.0
+    },
+    "Hostel_Facilities": {
+      "precision": 1.0,
+      "recall": 0.9710144927536232,
+      "f1-score": 0.9852941176470589,
+      "support": 138.0
+    },
+    "accuracy": 0.9866666666666667,
+    "macro avg": {
+      "precision": 0.9866912071846283,
+      "recall": 0.9860721362342078,
+      "f1-score": 0.9863246903165453,
+      "support": 750.0
+    },
+    "weighted avg": {
+      "precision": 0.9867632449178502,
+      "recall": 0.9866666666666667,
+      "f1-score": 0.986662221323425,
+      "support": 750.0
+    }
+  },
+  "bow_nb": {
+    "IT_WiFi": {
+      "precision": 0.9792746113989638,
+      "recall": 0.9895287958115183,
+      "f1-score": 0.984375,
+      "support": 191.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9915966386554622,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9874476987447699,
+      "support": 120.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9883720930232558,
+      "recall": 1.0,
+      "f1-score": 0.9941520467836257,
+      "support": 170.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9774436090225563,
+      "recall": 0.9923664122137404,
+      "f1-score": 0.9848484848484849,
+      "support": 131.0
+    },
+    "Hostel_Facilities": {
+      "precision": 1.0,
+      "recall": 0.9637681159420289,
+      "f1-score": 0.981549815498155,
+      "support": 138.0
+    },
+    "accuracy": 0.9866666666666667,
+    "macro avg": {
+      "precision": 0.9873373904200478,
+      "recall": 0.9857993314601241,
+      "f1-score": 0.9864746091750071,
+      "support": 750.0
+    },
+    "weighted avg": {
+      "precision": 0.9868018880156878,
+      "recall": 0.9866666666666667,
+      "f1-score": 0.9866456304753142,
+      "support": 750.0
+    }
+  },
+  "bow_lr": {
+    "IT_WiFi": {
+      "precision": 0.9692307692307692,
+      "recall": 0.9895287958115183,
+      "f1-score": 0.9792746113989638,
+      "support": 191.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9915966386554622,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9874476987447699,
+      "support": 120.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9882352941176471,
+      "recall": 0.9882352941176471,
+      "f1-score": 0.9882352941176471,
+      "support": 170.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9774436090225563,
+      "recall": 0.9923664122137404,
+      "f1-score": 0.9848484848484849,
+      "support": 131.0
+    },
+    "Hostel_Facilities": {
+      "precision": 1.0,
+      "recall": 0.9637681159420289,
+      "f1-score": 0.981549815498155,
+      "support": 138.0
+    },
+    "accuracy": 0.984,
+    "macro avg": {
+      "precision": 0.9853012622052869,
+      "recall": 0.9834463902836535,
+      "f1-score": 0.9842711809216041,
+      "support": 750.0
+    },
+    "weighted avg": {
+      "precision": 0.9842130484582498,
+      "recall": 0.984,
+      "f1-score": 0.9840056009072952,
+      "support": 750.0
+    }
+  },
+  "tfidf_nb__unseen": {
+    "IT_WiFi": {
+      "precision": 0.6206896551724138,
+      "recall": 0.9863013698630136,
+      "f1-score": 0.7619047619047619,
+      "support": 219.0
+    },
+    "LMS_Portal": {
+      "precision": 0.979381443298969,
+      "recall": 0.6291390728476821,
+      "f1-score": 0.7661290322580645,
+      "support": 151.0
+    },
+    "Academics_Exams": {
+      "precision": 0.6292134831460674,
+      "recall": 0.5989304812834224,
+      "f1-score": 0.6136986301369863,
+      "support": 187.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9696969696969697,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7901234567901234,
+      "support": 144.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.975609756097561,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.898876404494382,
+      "support": 144.0
+    },
+    "accuracy": 0.7562130177514793,
+    "macro avg": {
+      "precision": 0.8349182614823961,
+      "recall": 0.7428741847988236,
+      "f1-score": 0.7661464571168637,
+      "support": 845.0
+    },
+    "weighted avg": {
+      "precision": 0.8066328074362484,
+      "recall": 0.7562130177514793,
+      "f1-score": 0.7580121308741963,
+      "support": 845.0
+    }
+  },
+  "tfidf_lr__unseen": {
+    "IT_WiFi": {
+      "precision": 0.7352941176470589,
+      "recall": 0.7990867579908676,
+      "f1-score": 0.7658643326039387,
+      "support": 219.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9818181818181818,
+      "recall": 0.7152317880794702,
+      "f1-score": 0.8275862068965517,
+      "support": 151.0
+    },
+    "Academics_Exams": {
+      "precision": 0.8839779005524862,
+      "recall": 0.8556149732620321,
+      "f1-score": 0.8695652173913043,
+      "support": 187.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9763779527559056,
+      "recall": 0.8611111111111112,
+      "f1-score": 0.915129151291513,
+      "support": 144.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.746031746031746,
+      "recall": 0.9791666666666666,
+      "f1-score": 0.8468468468468469,
+      "support": 144.0
+    },
+    "accuracy": 0.8378698224852071,
+    "macro avg": {
+      "precision": 0.8646999797610757,
+      "recall": 0.8420422594220295,
+      "f1-score": 0.8449983510060308,
+      "support": 845.0
+    },
+    "weighted avg": {
+      "precision": 0.8551654689325302,
+      "recall": 0.8378698224852071,
+      "f1-score": 0.83908052717839,
+      "support": 845.0
+    }
+  },
+  "tfidf_svm__unseen": {
+    "IT_WiFi": {
+      "precision": 0.5692307692307692,
+      "recall": 0.6757990867579908,
+      "f1-score": 0.6179540709812108,
+      "support": 219.0
+    },
+    "LMS_Portal": {
+      "precision": 0.7788461538461539,
+      "recall": 0.5364238410596026,
+      "f1-score": 0.6352941176470588,
+      "support": 151.0
+    },
+    "Academics_Exams": {
+      "precision": 0.8238095238095238,
+      "recall": 0.9251336898395722,
+      "f1-score": 0.871536523929471,
+      "support": 187.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9851851851851852,
+      "recall": 0.9236111111111112,
+      "f1-score": 0.953405017921147,
+      "support": 144.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.5808823529411765,
+      "recall": 0.5486111111111112,
+      "f1-score": 0.5642857142857143,
+      "support": 144.0
+    },
+    "accuracy": 0.7266272189349112,
+    "macro avg": {
+      "precision": 0.7475907970025617,
+      "recall": 0.7219157679758776,
+      "f1-score": 0.7284950889529205,
+      "support": 845.0
+    },
+    "weighted avg": {
+      "precision": 0.7358975315205736,
+      "recall": 0.7266272189349112,
+      "f1-score": 0.7251907085469705,
+      "support": 845.0
+    }
+  },
+  "sbert_lr__unseen": {
+    "IT_WiFi": {
+      "precision": 0.824,
+      "recall": 0.9406392694063926,
+      "f1-score": 0.8784648187633263,
+      "support": 219.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9459459459459459,
+      "recall": 0.695364238410596,
+      "f1-score": 0.8015267175572519,
+      "support": 151.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9432624113475178,
+      "recall": 0.7112299465240641,
+      "f1-score": 0.8109756097560976,
+      "support": 187.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9826086956521739,
+      "recall": 0.7847222222222222,
+      "f1-score": 0.8725868725868726,
+      "support": 144.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.618421052631579,
+      "recall": 0.9791666666666666,
+      "f1-score": 0.7580645161290323,
+      "support": 144.0
+    },
+    "accuracy": 0.8260355029585799,
+    "macro avg": {
+      "precision": 0.8628476211154433,
+      "recall": 0.8222244686459884,
+      "f1-score": 0.8243237069585161,
+      "support": 845.0
+    },
+    "weighted avg": {
+      "precision": 0.8641801094824665,
+      "recall": 0.8260355029585799,
+      "f1-score": 0.8282610279997562,
+      "support": 845.0
+    }
+  },
+  "distilbert__unseen": {
+    "IT_WiFi": {
+      "precision": 0.8423076923076923,
+      "recall": 1.0,
+      "f1-score": 0.9144050104384134,
+      "support": 219.0
+    },
+    "LMS_Portal": {
+      "precision": 0.8615384615384616,
+      "recall": 0.7417218543046358,
+      "f1-score": 0.797153024911032,
+      "support": 151.0
+    },
+    "Academics_Exams": {
+      "precision": 0.9808917197452229,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.8953488372093024,
+      "support": 187.0
+    },
+    "Fees_Accounts": {
+      "precision": 1.0,
+      "recall": 0.9861111111111112,
+      "f1-score": 0.993006993006993,
+      "support": 144.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.9166666666666666,
+      "recall": 0.9930555555555556,
+      "f1-score": 0.9533333333333334,
+      "support": 144.0
+    },
+    "accuracy": 0.9112426035502958,
+    "macro avg": {
+      "precision": 0.9202809080516088,
+      "recall": 0.9088835865472017,
+      "f1-score": 0.9106494397798148,
+      "support": 845.0
+    },
+    "weighted avg": {
+      "precision": 0.9159579217752059,
+      "recall": 0.9112426035502958,
+      "f1-score": 0.9092639569215679,
+      "support": 845.0
+    }
+  },
+  "bow_nb__unseen": {
+    "IT_WiFi": {
+      "precision": 0.6341463414634146,
+      "recall": 0.8310502283105022,
+      "f1-score": 0.7193675889328063,
+      "support": 219.0
+    },
+    "LMS_Portal": {
+      "precision": 0.7985074626865671,
+      "recall": 0.7086092715231788,
+      "f1-score": 0.7508771929824561,
+      "support": 151.0
+    },
+    "Academics_Exams": {
+      "precision": 0.6973684210526315,
+      "recall": 0.5668449197860963,
+      "f1-score": 0.6253687315634219,
+      "support": 187.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.9649122807017544,
+      "recall": 0.7638888888888888,
+      "f1-score": 0.8527131782945736,
+      "support": 144.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.8291139240506329,
+      "recall": 0.9097222222222222,
+      "f1-score": 0.8675496688741722,
+      "support": 144.0
+    },
+    "accuracy": 0.7526627218934911,
+    "macro avg": {
+      "precision": 0.7848096859910001,
+      "recall": 0.7560231061461777,
+      "f1-score": 0.7631752721294861,
+      "support": 845.0
+    },
+    "weighted avg": {
+      "precision": 0.7671009986595803,
+      "recall": 0.7526627218934911,
+      "f1-score": 0.7521724981198754,
+      "support": 845.0
+    }
+  },
+  "bow_lr__unseen": {
+    "IT_WiFi": {
+      "precision": 0.7,
+      "recall": 0.7351598173515982,
+      "f1-score": 0.7171492204899778,
+      "support": 219.0
+    },
+    "LMS_Portal": {
+      "precision": 0.9115646258503401,
+      "recall": 0.8874172185430463,
+      "f1-score": 0.8993288590604027,
+      "support": 151.0
+    },
+    "Academics_Exams": {
+      "precision": 0.7870967741935484,
+      "recall": 0.6524064171122995,
+      "f1-score": 0.7134502923976608,
+      "support": 187.0
+    },
+    "Fees_Accounts": {
+      "precision": 0.963963963963964,
+      "recall": 0.7430555555555556,
+      "f1-score": 0.8392156862745098,
+      "support": 144.0
+    },
+    "Hostel_Facilities": {
+      "precision": 0.6782178217821783,
+      "recall": 0.9513888888888888,
+      "f1-score": 0.791907514450867,
+      "support": 144.0
+    },
+    "accuracy": 0.7822485207100591,
+    "macro avg": {
+      "precision": 0.808168637158006,
+      "recall": 0.7938855794902777,
+      "f1-score": 0.7922103145346836,
+      "support": 845.0
+    },
+    "weighted avg": {
+      "precision": 0.7983521093787448,
+      "recall": 0.7822485207100591,
+      "f1-score": 0.7824275533588672,
+      "support": 845.0
+    }
+  }
+}

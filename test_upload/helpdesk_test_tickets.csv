@@ -1,0 +1,41 @@
+ticket_id,text,category,created_date
+T001,"Since the router change last night, wifi in Block E keeps dropping every few minutes",IT_WiFi,2026-10-05
+T002,"My university email shows 'mailbox full' even though I deleted everything, cannot receive mails",IT_WiFi,2026-10-06
+T003,The computers in Lab 2 are stuck on a blue screen after the Windows update,IT_WiFi,2026-10-09
+T004,"VPN asks for a certificate I never installed, getting ERR_AUTH when I connect from home",IT_WiFi,2026-10-14
+T005,pls reset my campus wifi password i forgot it after vacations,IT_WiFi,2026-10-20
+T006,"Projector cable in seminar hall 2 is missing, the guest lecture is at 11 am",IT_WiFi,2026-10-27
+T007,Microsoft Teams says my licence is not assigned so I cannot join the online viva,IT_WiFi,2026-11-03
+T008,printer in the faculty room prints blank pages only,IT_WiFi,2026-11-10
+T009,"Moodle logs me out every time I open the quiz for ETMMTI303, lost my answers twice",LMS_Portal,2026-10-04
+T010,The student portal shows my programme as BCA instead of MCA,LMS_Portal,2026-10-08
+T011,"Assignment submission button on LMS is greyed out for MCA-302, deadline is today",LMS_Portal,2026-10-13
+T012,i uploaded my project report on the LMS but the teacher can only see an empty file,LMS_Portal,2026-10-19
+T013,"Portal says 'session invalid' right after I log in, tried Chrome and Edge",LMS_Portal,2026-10-24
+T014,Course CS204 disappeared from my LMS dashboard after the add/drop week,LMS_Portal,2026-11-02
+T015,Unable to change my registered mobile number on the student portal profile page,LMS_Portal,2026-11-09
+T016,"Grades for the internal quizzes are visible to classmates but not on my LMS account, ID KRM2024MCA051",LMS_Portal,2026-11-16
+T017,My admit card for the end semester exams has the wrong photo,Academics_Exams,2026-10-07
+T018,"Result for ENCS351 shows fail but my marks add up to 46 out of 100, please recheck",Academics_Exams,2026-10-12
+T019,Attendance for MBA-105 is shown as 62% although I have the signed attendance sheet,Academics_Exams,2026-10-18
+T020,Need to know the process and fee for applying for revaluation of two papers,Academics_Exams,2026-10-25
+T021,"Two end term papers are on the same morning, 4/12/2026, please reschedule one",Academics_Exams,2026-11-05
+T022,Syllabus PDF for the third semester electives has not been shared by the department,Academics_Exams,2026-11-12
+T023,I missed the mid term due to hospitalisation and want to apply for a special exam,Academics_Exams,2026-11-18
+T024,Need a bonafide certificate for my passport application this week,Academics_Exams,2026-11-20
+T025,"Rs 64,000 deducted from my bank but the fee portal still shows 'payment pending', TXN7788990011",Fees_Accounts,2026-08-02
+T026,The post matric scholarship for last year has still not been credited,Fees_Accounts,2026-08-09
+T027,"I left the hostel in July, when will I get my security deposit of INR 15000 back?",Fees_Accounts,2026-08-16
+T028,A late fee was added to my account though I paid two days before the due date,Fees_Accounts,2026-08-23
+T029,Please share the fee structure on letterhead for my education loan,Fees_Accounts,2026-09-01
+T030,"Paid the exam fee twice by mistake through UPI, need a refund of one payment",Fees_Accounts,2026-09-15
+T031,No-dues certificate from the Accounts Office is pending since 3 weeks,Fees_Accounts,2026-10-01
+T032,"Fee receipt PDF downloads as a corrupted file, need it for reimbursement",Fees_Accounts,2026-10-22
+T033,"No hot water in the bathrooms of Hostel B second floor since Monday",Hostel_Facilities,2026-10-03
+T034,The mess served undercooked rice for three days in a row,Hostel_Facilities,2026-10-10
+T035,"Tube light and one fan in Hostel D-214 stopped working, please send the electrician",Hostel_Facilities,2026-10-17
+T036,College bus on route 5 left 15 minutes early and many of us were left behind,Hostel_Facilities,2026-10-23
+T037,"There are rats in the hostel corridor near room 108, need pest control urgently",Hostel_Facilities,2026-10-30
+T038,Requesting a room change because my roommate smokes inside the room,Hostel_Facilities,2026-11-06
+T039,The library closes at 6 pm on Saturdays which is too early before exams,Hostel_Facilities,2026-11-13
+T040,"Drinking water cooler outside Block B is leaking and the floor is slippery",Hostel_Facilities,2026-11-19

@@ -1,0 +1,17 @@
+{
+  "label2id": {
+    "IT_WiFi": 0,
+    "LMS_Portal": 1,
+    "Academics_Exams": 2,
+    "Fees_Accounts": 3,
+    "Hostel_Facilities": 4
+  },
+  "id2label": {
+    "0": "IT_WiFi",
+    "1": "LMS_Portal",
+    "2": "Academics_Exams",
+    "3": "Fees_Accounts",
+    "4": "Hostel_Facilities"
+  },
+  "max_len": 128
+}

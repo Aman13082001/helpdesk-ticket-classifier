@@ -1,0 +1,22 @@
+# Runtime dependencies for the Streamlit app (also what Streamlit Community Cloud installs).
+# Training, notebooks and tests need requirements-dev.txt as well.
+#
+# CPU-only torch keeps the cloud image small. Locally, if you already installed the CUDA build
+# (pip install torch --index-url https://download.pytorch.org/whl/cu126), pip keeps it.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+transformers>=4.44,<5
+accelerate>=0.33
+sentence-transformers>=3.0
+scikit-learn>=1.4
+spacy>=3.8,<3.9
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+numpy>=1.26,<2.3
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+streamlit>=1.50
+pyyaml>=6.0
+joblib>=1.3

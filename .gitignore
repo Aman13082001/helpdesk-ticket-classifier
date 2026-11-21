@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.part
+# large / regenerable artefacts (re-create with run_all)
+# DistilBERT weights: >100 MB, published as a GitHub Release asset instead (see config.yaml -> deploy)
+artifacts/distilbert_helpdesk/model.safetensors
+artifacts/distilbert_helpdesk/training_args.bin
+artifacts/_distilbert_checkpoints/
+artifacts/embeddings/

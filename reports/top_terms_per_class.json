@@ -1,0 +1,62 @@
+{
+  "Academics_Exams": [
+    "coursecodetoken",
+    "exam",
+    "need",
+    "ticket",
+    "certificate",
+    "attendance",
+    "sheet",
+    "semester",
+    "hall",
+    "evaluation"
+  ],
+  "Fees_Accounts": [
+    "fee",
+    "amounttoken",
+    "pay",
+    "payment",
+    "refund",
+    "need",
+    "txnidtoken",
+    "bank",
+    "account",
+    "semester"
+  ],
+  "Hostel_Facilities": [
+    "hostel",
+    "not",
+    "work",
+    "block",
+    "need",
+    "mess",
+    "water",
+    "close",
+    "extend",
+    "timing"
+  ],
+  "IT_WiFi": [
+    "not",
+    "system",
+    "lab",
+    "block",
+    "campus",
+    "connect",
+    "errorcodetoken",
+    "work",
+    "laptop",
+    "sir"
+  ],
+  "LMS_Portal": [
+    "portal",
+    "lms",
+    "not",
+    "student",
+    "submit",
+    "coursecodetoken",
+    "assignment",
+    "login",
+    "moodle",
+    "studentidtoken"
+  ]
+}

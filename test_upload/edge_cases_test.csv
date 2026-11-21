@@ -1,0 +1,9 @@
+ticket_id,complaint,dept,priority_level
+E001,"wifi not working in the hostel room, pls help",IT_WiFi,1
+E002,,LMS_Portal,2
+E003,"wifi not working in the hostel room, pls help",IT_WiFi,1
+E004,fee paid but portal still shows unpaid and I cannot open my courses,Fees_Accounts,1
+E005,result issue,Academics_Exams,3
+E006,mess food bad,Hostel,2
+E007,PLS HELP URGENT!!! 🙏🙏,IT_WiFi,1
+E008,No water supply in Hostel B-212 since 12 Nov the warden office is not responding,Hostel_Facilities,1

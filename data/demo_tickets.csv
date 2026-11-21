@@ -1,0 +1,25 @@
+text,category
+"Hello, the projector in room 304 of Block D is not turning on and my lecture starts at 10:30 am",IT_WiFi
+"I changed my laptop and now Eduroam keeps rejecting my credentials",IT_WiFi
+"Outlook on the lab machine in Lab 6 crashes as soon as I open an attachment",IT_WiFi
+"internet speed in Block A library section is like 50 kbps, impossible to download papers",IT_WiFi
+"The deadline timer on Moodle for my ETMMTI303 assignment shows the wrong timezone",LMS_Portal
+"After the portal update I can no longer see my enrolled electives, ID KRM2024MCA088",LMS_Portal
+"quiz answers were saved but LMS shows 0 attempts for MCA-302",LMS_Portal
+"student portal OTP never arrives on my phone 9811122233",LMS_Portal
+"I was present in the CS204 mid-sem on 18 Oct but the result says absent",Academics_Exams
+"Please tell me the last date to apply for re-evaluation of the end term papers",Academics_Exams
+"Two of my papers are scheduled at the same time on 2/12/2026, need the exam cell to fix this",Academics_Exams
+"I need a provisional degree certificate urgently for a job offer",Academics_Exams
+"Rs 58,500 got debited twice for the semester fee, UTR998877665544, please refund one",Fees_Accounts
+"my scholarship was approved in September but nothing has come to my bank account",Fees_Accounts
+"Accounts Office has not issued the fee receipt even after payment via NEFT on 5 Nov",Fees_Accounts
+"Can I get an installment plan for the remaining hostel fee of INR 30000?",Fees_Accounts
+"The ceiling fan in Hostel C-118 makes a loud noise and wobbles dangerously",Hostel_Facilities
+"Mess served stale food again tonight, several students fell sick",Hostel_Facilities
+"Bus on route 7 skipped our stop this morning, nobody informed us",Hostel_Facilities
+"Water leaking from the bathroom ceiling of Hostel A-212 since yesterday",Hostel_Facilities
+"fee paid but the LMS still says my account is blocked for non payment",Fees_Accounts
+"hostel room wifi down and also the fan is broken, pls send someone",IT_WiFi
+"result issue",Academics_Exams
+"pls help urgent!!!",IT_WiFi

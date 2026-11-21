@@ -1,0 +1,8 @@
+model,display_name,group,accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,val_macro_f1,latency_ms_per_ticket,single_ticket_latency_ms,train_time_sec,size_mb,inference_device,unseen_accuracy,unseen_macro_f1,generalisation_gap
+tfidf_nb,Naive Bayes (TF-IDF),main,0.9867,0.9873,0.9858,0.9865,0.9868,0.9867,0.9866,0.987,1.543,6.11,61.25,0.82,cpu,0.7562,0.7661,0.2204
+bow_nb,Naive Bayes (BoW),bow_comparison,0.9867,0.9873,0.9858,0.9865,0.9868,0.9867,0.9866,0.9884,1.713,3.24,0.29,0.76,cpu,0.7527,0.7632,0.2233
+distilbert,DistilBERT (fine-tuned),main,0.9867,0.9867,0.9861,0.9863,0.9868,0.9867,0.9867,0.9868,0.849,7.51,53.6,268.8,cuda,0.9112,0.9106,0.0757
+tfidf_lr,Logistic Regression (TF-IDF),main,0.9853,0.9858,0.9846,0.9852,0.9854,0.9853,0.9853,0.9895,1.71,7.47,24.31,1.0,cpu,0.8379,0.845,0.1402
+tfidf_svm,Linear SVM (TF-IDF),main,0.9853,0.9857,0.9846,0.9851,0.9855,0.9853,0.9853,0.9882,1.71,7.48,34.1,1.73,cpu,0.7266,0.7285,0.2566
+bow_lr,Logistic Regression (BoW),bow_comparison,0.984,0.9853,0.9834,0.9843,0.9842,0.984,0.984,0.9881,1.579,4.1,0.74,0.5,cpu,0.7822,0.7922,0.1921
+sbert_lr,SBERT + Logistic Regression,main,0.9707,0.9703,0.9696,0.9699,0.9708,0.9707,0.9707,0.9813,0.76,7.38,72.27,91.59,cuda,0.826,0.8243,0.1456

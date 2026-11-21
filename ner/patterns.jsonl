@@ -1,0 +1,64 @@
+{"label": "STUDENT_ID", "regex": "\\bKRM\\d{4}[A-Z]{2,6}\\d{3}\\b", "flags": "i"}
+{"label": "TXN_ID", "regex": "\\b(?:TXN|UTR)-?\\d{6,12}\\b", "flags": "i"}
+{"label": "ERROR_CODE", "regex": "\\b(?:ERR_[A-Z0-9]+|E-\\d{3,5}|HTTP\\s?[45]\\d{2}|error code \\d{3,4})\\b", "flags": "i"}
+{"label": "COURSE_CODE", "regex": "\\b(?:MCA|BCA|MBA|BTCS|CS|ENCS|ETCS|ETMMTI)-?\\d{3}\\b", "flags": "i"}
+{"label": "AMOUNT", "regex": "(?:₹\\s?|\\bRs\\.?\\s?|\\bINR\\s?)\\d[\\d,]*(?:\\.\\d+)?(?:/-)?|\\b\\d[\\d,]*\\s?rupees\\b", "flags": "i"}
+{"label": "EMAIL", "regex": "\\b[\\w.+-]+@[\\w-]+(?:\\.[\\w-]+)+\\b"}
+{"label": "PHONE", "regex": "(?:\\+91[\\s-]?)?\\b[6-9]\\d{4}[\\s-]?\\d{5}\\b"}
+{"label": "DATE", "regex": "\\b\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4}\\b"}
+{"label": "DATE", "regex": "\\b\\d{1,2}(?:st|nd|rd|th)?\\s(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*(?:\\s\\d{4})?\\b", "flags": "i"}
+{"label": "DATE", "regex": "\\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\\s\\d{1,2}(?:st|nd|rd|th)?(?:,?\\s\\d{4})?\\b", "flags": "i"}
+{"label": "LOCATION", "regex": "\\bHostel\\s[A-D]-\\d{3}\\b", "flags": "i"}
+{"label": "LOCATION", "regex": "\\bBlock\\s[A-F]\\b", "flags": "i"}
+{"label": "LOCATION", "regex": "\\bLab\\s?\\d{1,2}\\b", "flags": "i"}
+{"label": "DEPARTMENT", "pattern": "IT Services"}
+{"label": "DEPARTMENT", "pattern": "IT department"}
+{"label": "DEPARTMENT", "pattern": "IT helpdesk"}
+{"label": "DEPARTMENT", "pattern": "Examination Cell"}
+{"label": "DEPARTMENT", "pattern": "exam cell"}
+{"label": "DEPARTMENT", "pattern": "Accounts Office"}
+{"label": "DEPARTMENT", "pattern": "accounts department"}
+{"label": "DEPARTMENT", "pattern": "accounts section"}
+{"label": "DEPARTMENT", "pattern": "Hostel Office"}
+{"label": "DEPARTMENT", "pattern": "warden office"}
+{"label": "DEPARTMENT", "pattern": "Registrar"}
+{"label": "DEPARTMENT", "pattern": "Registrar Office"}
+{"label": "DEPARTMENT", "pattern": "Academic Office"}
+{"label": "DEPARTMENT", "pattern": "Admission Office"}
+{"label": "DEPARTMENT", "pattern": "Placement Cell"}
+{"label": "DEPARTMENT", "pattern": "Transport Office"}
+{"label": "DEPARTMENT", "pattern": "Estate Office"}
+{"label": "DEPARTMENT", "pattern": "Scholarship Cell"}
+{"label": "LOCATION", "pattern": "library"}
+{"label": "LOCATION", "pattern": "central library"}
+{"label": "LOCATION", "pattern": "mess"}
+{"label": "LOCATION", "pattern": "admin building"}
+{"label": "LOCATION", "pattern": "sports complex"}
+{"label": "LOCATION", "pattern": "girls hostel"}
+{"label": "LOCATION", "pattern": "boys hostel"}
+{"label": "LOCATION", "pattern": "canteen"}
+{"label": "LOCATION", "pattern": "auditorium"}
+{"label": "LOCATION", "pattern": "exam hall"}
+{"label": "LOCATION", "pattern": "medical room"}
+{"label": "LOCATION", "pattern": "parking"}
+{"label": "SYSTEM", "pattern": "Moodle"}
+{"label": "SYSTEM", "pattern": "LMS"}
+{"label": "SYSTEM", "pattern": "student portal"}
+{"label": "SYSTEM", "pattern": "exam portal"}
+{"label": "SYSTEM", "pattern": "fee portal"}
+{"label": "SYSTEM", "pattern": "fee payment portal"}
+{"label": "SYSTEM", "pattern": "ERP"}
+{"label": "SYSTEM", "pattern": "Eduroam"}
+{"label": "SYSTEM", "pattern": "VPN"}
+{"label": "SYSTEM", "pattern": "Microsoft Teams"}
+{"label": "SYSTEM", "pattern": "Teams"}
+{"label": "SYSTEM", "pattern": "Zoom"}
+{"label": "SYSTEM", "pattern": "Google Meet"}
+{"label": "SYSTEM", "pattern": "Outlook"}
+{"label": "SYSTEM", "pattern": "MS Office"}
+{"label": "SYSTEM", "pattern": "MATLAB"}
+{"label": "SYSTEM", "pattern": "SPSS"}
+{"label": "SYSTEM", "pattern": "Turnitin"}
+{"label": "SYSTEM", "pattern": "UPI"}
+{"label": "SYSTEM", "pattern": "NEFT"}
+{"label": "SYSTEM", "pattern": "payment gateway"}
