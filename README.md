@@ -75,9 +75,9 @@ pip install -r requirements-dev.txt     # app only: requirements.txt (includes t
 1. Push this folder to a **public** GitHub repo (`artifacts/distilbert_helpdesk/model.safetensors` is git-ignored, since it is over GitHub's 100 MB limit).
 2. Attach the weights to a release: `gh release create v1.0-models artifacts/distilbert_helpdesk/model.safetensors --title "Model weights"`.
 3. Check that `deploy.distilbert_weights_url` in `config.yaml` points to that release asset.
-4. At [share.streamlit.io](https://share.streamlit.io), click **Create app**, pick the repo, branch `main`, main file `app.py`, and under *Advanced settings* choose Python **3.12**.
+4. At [share.streamlit.io](https://share.streamlit.io), click **Create app**, pick the repo, branch `main`, main file `app.py`. Any Python version from 3.12 to 3.14 works: `requirements.txt` pins the tested versions and uses only prebuilt packages, so nothing is compiled during the build.
 
-On its first start, the app installs CPU-only torch and downloads the DistilBERT weights (about 2 minutes). If the download fails, it runs with the other four models.
+On its first start, the app installs CPU-only torch (about 1 GB RAM in use with all 5 models) and downloads the DistilBERT weights (about 2 minutes). If the download fails, it runs with the other four models.
 
 ## Run order
 
